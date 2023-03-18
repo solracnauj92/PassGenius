@@ -95,3 +95,38 @@ def initial_login():
         initial_login()
 
 
+# Menu function
+def menu(user_id):
+    print("     1. Generate a password for a new website")
+    print("     2. Get a password for an existing website")
+    print("     3. Quit")
+    print()
+    choice = input("   Enter your choice: ")
+    os.system('cls' if os.name == 'nt' else 'clear')
+    if choice == "1":
+        website = input("   Enter the website: ")
+        username = input("   Enter the username: ")
+        password = generate_password()
+        print()
+        print("   Generated password:", password)
+        print()
+        add_password(website, username, password, user_id)  
+        # Pass the user ID to the add_password function
+    elif choice == "2":
+        website = input("   Enter the website: ")
+        password = get_password(website, user_id)  
+        # Pass the user ID to the get_password function
+        if password:
+            print("   Password:", password)
+        else:
+            print("   No password found for", website)
+    elif choice == "3":
+        print("   Goodbye!")
+        quit()
+    else:
+        print("   Invalid choice, try again.")
+    menu(user_id)
+
+
+# 1Start the program
+initial_login()

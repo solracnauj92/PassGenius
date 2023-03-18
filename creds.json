@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "passgenius-380911",
+  "private_key_id": "095e771ee16c0665d068566758fd183fd01f5d92",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDGZy882WvuMeqE\ncpdDRGiW8CcORW/Eax+5YwrfLxbt+oGnywJlFq1watqbbto3XmyarKz4fFC+iCJ0\n1I2RdyHqnWiZ0CkkjOLXLGrW/PGLPycD0droYErOz28sZsl2BokCXQ0ifCNcnZ4J\nlNJo2m/0QMhFamMbx0+DHo60r2INdYd0RIQJARzfxPlrJPzyZiwR9KQ5BW779cts\nVgCxawjGlE00vhPjcP+u82gLBgvrAASSPiycU39RazU/yJcbA7PQwHKFfjN6JyqO\na9z0+54jHzwTcOo9rplfvUqnUhqosvrIsOGXUTkywPGuhYGsRS/PsT9zuNTHGt+D\ndfF01HuVAgMBAAECggEAIJ+YZpzIsMTP72HpSfQOb51DCsdzopxLvd/RipPTZSO/\nHJBWzzj8oWLMmejPJHIYERHqKjzEySOY6NWHhr8MWmfyKnKORVaOOTvyQHIcpJ0o\nhOoFoRauTlXRDb/ECi52amdTENPRO7omIaSxOXELniHl3HYrIEb0ZdbJN+Ar0xLx\nXkWiYjyeAzytK3L2Gh9PBFgrh5J0FhLMLpQWGgF4OJOn7pPb+B6pc7yzi7D+tOa5\nGb2qIh5ytz71dCE3tsKAQ1t2AxW+vdTq9TKeiayT6Ss0enFwC0H579F8IBDWLOm0\nkg3Ztqvp68IrFLmmqVv1OtBQhoQR+ErMZjZBzoMSeQKBgQDpnSWplQCQPauMAqSe\n9eeR2t6eDOnfDawZgbxYXNRcPKY2/iOK9VAArh/mwB/SQrKmPGAY+R6+Gud5YzGA\npBQIyU3MjwLoPBscuEtt/sdqgX0qp82g2hwuqQ7N3JNn70cQXKTaGKKEXxjIQQnq\nzvC2RkRtYj4MpkKeta5mVMpnjQKBgQDZakVN+C+mxi4b8K3k6YJ9N6hdHQFWfQEk\n6nsjhUfXJmCydmSw4FXgCKf0JKtKBZTkRC/P4PtB5PA/CjchG5huBXDqznPi3OSz\njh7fMJHMT5hZLwPBAeMTVpKll3NnZOsloi7HIi+G1k21fUNZjNwc9x9/sVAzFjap\nILg581z+KQKBgQDoF34Rar0ykHJcGUwfuUKlP4MoFsBLIDQ46xGJ4EACmyavP/Fj\n3q/q3RNIltuGc0k1qon2hZmrWONbT9cgbOKSkBxA/FvxCbYN5HLcBuFryNXniOrb\nwZV6Le9NSrUP70L02HXXT942EJx4Z1VI+Otgy5Kz8YSf4JYTQ4DOnbKxCQKBgQCq\nBNLhoD4TW1Nfgh1ar8jdhxLgjfgn3GVyqvNU2btOYrKnnLItJ6HAKsS8xZg1sJu4\nziHdnICgDRpbEe/+sgfHsfWViZFSTY+DYpZ9zwuVDIGE7KEw4/rheof/eqpCpsbE\njUmra+5isV/fl299rgvLku1M/CpNaQehxvaKSufj0QKBgQCb2tjgPYlwWJtZkEGg\nDcvDz+Ptyss0C85WFNhqoO1oxEBW7engECj9TGlu19zgbOFdIK3T8QOMdmm2bsnZ\nuxjnNYrJWZ05znKucSzP2XYta7aEMPTwk2E3yCpFSsju8j3ZzGjY1TFSORlv8Pdm\nqFnQKuqmAPPZgk6b2mnGnP8BmA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "passgenius@passgenius-380911.iam.gserviceaccount.com",
+  "client_id": "114369266351315269425",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/passgenius%40passgenius-380911.iam.gserviceaccount.com"
+}
+
