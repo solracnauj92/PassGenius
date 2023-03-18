@@ -41,3 +41,57 @@ def get_password(website, user_id):
         if row[0] == website and row[3] == user_id:
             return row[2]
     return None
+
+
+# Function for initial login
+def initial_login():
+    os.system('cls' if os.name == 'nt' else 'clear')  # Clear the screen
+    print("""
+
+   ╔═╗┌─┐┌─┐┌─┐╔═╗┌─┐┌┐┌┬┬ ┬┌─┐
+   ╠═╝├─┤└─┐└─┐║ ╦├┤ │││││ │└─┐
+   ╩  ┴ ┴└─┘└─┘╚═╝└─┘┘└┘┴└─┘└─┘
+""")
+    print("\n" * 4)
+    print("   Welcome! Please select an option:")
+    print()
+    print("     1. Login")
+    print("     2. Create new user")
+    print("     3. Quit")
+    print()
+    choice = input("   Enter your choice: ")
+    os.system('cls' if os.name == 'nt' else 'clear')  # Clear the screen
+    if choice == "1":
+        username = input("   Enter your username: ")
+        password = input("   Enter your password: ")
+        data = WORKSHEET.get_all_values()
+        for row in data[1:]:
+            if row[1] == username and row[2] == password:
+                user_id = row[3]
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("   Welcome, {}!".format(username))
+                menu(user_id)   # Pass the user ID to the menu function
+                break
+        else:
+            print("   Incorrect username or password.")
+            input("   Press Enter to continue...")
+            initial_login()
+    elif choice == "2":
+        username = input("   Enter a new username: ")
+        password = input("   Enter a new password: ")
+        print()
+        data = WORKSHEET.get_all_values()
+        user_id = str(len(data))
+        row = [user_id, username, password, user_id]
+        WORKSHEET.append_row(row)
+        print("   New user created. Please log in.")
+        input("   Press Enter to continue...")
+        initial_login()
+    elif choice == "3":
+        print("   Goodbye!")
+        quit()
+    else:
+        print("   Invalid choice, try again.")
+        initial_login()
+
+
