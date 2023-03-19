@@ -1,8 +1,9 @@
 import random
 import string
+import os
 import gspread
 from google.oauth2.service_account import Credentials
-import os
+
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -110,11 +111,11 @@ def menu(user_id):
         print()
         print("   Generated password:", password)
         print()
-        add_password(website, username, password, user_id)  
+        add_password(website, username, password, user_id)
         # Pass the user ID to the add_password function
     elif choice == "2":
         website = input("   Enter the website: ")
-        password = get_password(website, user_id)  
+        password = get_password(website, user_id)
         # Pass the user ID to the get_password function
         if password:
             print("   Password:", password)
